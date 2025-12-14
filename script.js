@@ -26,7 +26,7 @@
         document.getElementById('downloadBtn').addEventListener('click', function(e) {
             e.preventDefault();
             
-const apkUrl = 'https://github.com/mohamedmostafaabasmostafa-dotcom/test_flutter_clean/releases/download/%D9%85%D8%A7%D9%81%D9%8A%D9%88%D8%B3%D9%88/-.mafioso.1.0.1.apk';
+const apkUrl = 'https://www.mediafire.com/file/ylun0ctxim0femk/%25D9%2585%25D8%25A7%25D9%2581%25D9%258A%25D9%2588%25D8%25B3%25D9%2588_-_mafioso_1.0.2.apk/file';
 
 // دالة التحقق والتحميل التلقائي
 async function verifyAndDownloadApk() {
@@ -88,4 +88,5 @@ window.addEventListener("load", verifyAndDownloadApk);
         });
 
         
+
 
